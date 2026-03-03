@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.h5
+*.model
+data/
+*.pyc
+.idea/
+.vscode/
+.ipynb_checkpoints/
+*.log
