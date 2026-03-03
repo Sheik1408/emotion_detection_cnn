@@ -9,7 +9,7 @@ model = load_model("models/emotion_model.h5")
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral','Sad','Surprise']
 
 # Load image
-img_path = "data/sample_face.jpg"
+img_path = "sheik img.jpg.jpeg"
 img = cv2.imread(img_path)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
